@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    // below 4 lines of codes are labels, text fields and button UI Links
     
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var enterNameTextField: UITextField!
@@ -28,6 +29,7 @@ class ViewController: UIViewController {
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         // Code will evalate when we press Send button
+        
 
     messageLabel.hidden = false
     messageLabel.text = enterMessageTextField.text

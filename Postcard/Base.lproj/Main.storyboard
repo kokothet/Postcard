@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
     </dependencies>
     <scenes>
-        <!--Barcelona-->
+        <!--Yangon-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Postcard" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,10 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Ndy-xe-mAO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trl_myanmar_yangon_01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ndy-xe-mAO">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="64" width="400" height="600"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-46" y="64" width="478" height="736"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -35,7 +39,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Barcelona" id="mot-JF-yQT">
+                    <navigationItem key="navigationItem" title="Yangon" id="mot-JF-yQT">
                         <barButtonItem key="rightBarButtonItem" title="Message" id="4Ou-8y-c0h">
                             <connections>
                                 <segue destination="Yah-Kc-1IZ" kind="show" id="p6G-oj-vQv"/>
@@ -45,7 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1089" y="315"/>
+            <point key="canvasLocation" x="1056" y="315"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aXT-tt-RjP">
@@ -66,6 +70,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="11" y="334" width="350" height="38"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="334" width="373" height="38"/>
+                                </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFv-Rd-Ddb">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -78,22 +85,22 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="246" width="127" height="30"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="246" width="161" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="sendMailButtonPressed:" destination="Yah-Kc-1IZ" eventType="touchUpInside" id="dym-ka-flH"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="InO-Q3-MHg">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="162" y="146" width="199" height="130"/>
-                                </variation>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="51q-4X-wpW">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="11" y="296" width="350" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="296" width="373" height="30"/>
                                 </variation>
                             </textField>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csz-ZI-0Js">
@@ -103,6 +110,9 @@
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="11" y="72" width="361" height="71"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="72" width="373" height="71"/>
                                 </variation>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8RZ-Qj-DI2">
@@ -114,26 +124,35 @@
                                     <rect key="frame" x="11" y="186" width="143" height="27"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp24.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="InO-Q3-MHg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="162" y="146" width="199" height="130"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="146" width="199" height="130"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="jx4-Kh-qwa"/>
                                 <exclude reference="xFv-Rd-Ddb"/>
-                                <exclude reference="InO-Q3-MHg"/>
                                 <exclude reference="51q-4X-wpW"/>
                                 <exclude reference="Csz-ZI-0Js"/>
                                 <exclude reference="8RZ-Qj-DI2"/>
+                                <exclude reference="InO-Q3-MHg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="jx4-Kh-qwa"/>
                                 <include reference="xFv-Rd-Ddb"/>
-                                <include reference="InO-Q3-MHg"/>
                                 <include reference="51q-4X-wpW"/>
                                 <include reference="Csz-ZI-0Js"/>
                                 <include reference="8RZ-Qj-DI2"/>
+                                <include reference="InO-Q3-MHg"/>
                             </mask>
                         </variation>
                     </view>
@@ -171,7 +190,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AlbertEinsteinStamp.jpg" width="1917" height="1344"/>
-        <image name="SagradaFamilia.jpeg" width="205" height="245"/>
+        <image name="stamp24.jpg" width="388" height="262"/>
+        <image name="trl_myanmar_yangon_01.jpg" width="1754" height="1275"/>
     </resources>
 </document>
